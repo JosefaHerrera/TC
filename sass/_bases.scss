@@ -1,3 +1,9 @@
+hr.style1{
+  border-top: 1px solid #f15a24;
+  width: 10%;
+}
+
+
 nav{
   .navbar-default {
     background-color: #ffffff;
@@ -1235,7 +1241,9 @@ figure.effect-chico:hover p {
 /*      Code snippet by          */
 /*      @maridlcrmn              */
 /*-------------------------------*/
-
+h3,h1{
+  color:#f15a24;
+}
 
 section {
     padding-top: 100px;
@@ -1279,12 +1287,7 @@ section {
     text-align: center;
     border: none;
 }
-#fade-quote-carousel .profile-circle {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 100px;
-}
+
 }
 
 @font-face {
@@ -6217,15 +6220,25 @@ Copyright (c) 2015 Daniel Eden
 
 
 #Quehacemos{
+
+  padding-top: 76px;
+    padding-bottom: 76px;
+  img{
+        width: 129px;
+  }
+  h1{
+    color:#f15a24;
+  }
   .top{
     padding-top: 30px;
     padding-bottom: 30px;
   }
   .iconqh{
     color:#f15a24;
+        width: 129px;
   }
   h2{
-    font-size: 30px;
+    font-size: 16px;
     padding-top: 40px;
     color:#1b1464;
 }
